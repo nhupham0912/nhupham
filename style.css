@@ -1,0 +1,98 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu{
+    background-color: lightsalmon ;
+    padding: 0px;
+    margin: 0px;
+}
+.menu>li{
+    width: 200px;
+    position: relative;
+}
+.dflex{
+    display: flex;
+}
+.menu>li>a{
+    display: block;
+    padding: 10px;
+}
+.menu>li>a:hover{
+    background-color: rebeccapurple;
+    color: powderblue;
+}
+.submenu{
+    display: none;
+}
+.subli:hover .submenu{
+    display: block;
+    position: absolute;
+}
+.col15{
+    width: 15%;
+}
+.col65{
+    width: 65%;
+}
+.col20{
+    width: 20%;
+}
+.content{
+    background-color: bisque;
+    margin: 1px auto;
+    align-items: center;
+}
+.col15 img{
+    width: 100%;
+}
+.col65>h1{
+    color: navy;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 3px 4px 3px brown;
+}
+.col20 input{
+    padding: 10px;
+}
+.left{
+    background-color: slategray;
+    width: 20%;
+    height: 650px;
+    margin: 1px 1px;
+}
+.right{
+    background-color: slategray;
+    width: 80%;
+    height: 650px;
+    margin: 1px 1px;
+}
+.leftsub>li>a{
+    font-size: 22px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 20px 20px;
+}
+.leftsub>li{
+    margin: 20px auto;
+}
+.bgc{
+    width: 33%;
+}
+.bgc img{
+    width: 100%;
+    border-radius: 20px 20px;
+}
+.bgc figcaption{
+    font-size: 20px;
+    text-align: center;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure{
+    margin: 2px;
+    padding: 2px;
+}
